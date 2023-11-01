@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+
+        android:id="@+id/imageView5"
+        android:layout_width="414dp"
+        android:layout_height="264dp"
+        android:layout_marginBottom="459dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/main" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="48dp"
+        android:clickable="false"
+        android:fontFamily="sans-serif-medium"
+        android:text="Provide our customers with the fastest, most convenient and professional repair service by empowering our specialist to refine and deliver best-in-class customer service and standards."
+        android:textAlignment="center"
+        android:textColor="#219387"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+    <Button
+        android:id="@+id/dismiss_btn"
+        android:layout_width="342dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:text="DISMISS"
+        android:textAlignment="center"
+        android:textColor="#3C3F41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_now_btn" />
+
+    <Button
+        android:id="@+id/book_now_btn"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#009587"
+        android:text="BOOK NOW"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

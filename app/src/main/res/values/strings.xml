@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mobiklinik</string>
+    <string name="category_image_description">Category</string>
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="timeSlot">
+        <item>10.00 am</item>
+        <item>11.00 am</item>
+        <item>12.00 am</item>
+        <item>01.00 pm</item>
+        <item>02.00 pm</item>
+        <item>03.00 pm</item>
+        <item>04.00 pm</item>
+        <item>05.00 pm</item>
+    </string-array>
+
+</resources>
+
+
