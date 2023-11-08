@@ -52,7 +52,7 @@ class recyclerview_adaptery(
 
         holder.imageView.setOnClickListener(View.OnClickListener {
 
-            Toast.makeText(context, mList.get(position).image, Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, mList.get(position).image, Toast.LENGTH_SHORT).show()
             val intent = Intent(context, Customer_info::class.java)
                 context.startActivity(intent)
         })
