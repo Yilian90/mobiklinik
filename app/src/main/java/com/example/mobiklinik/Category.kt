@@ -51,7 +51,9 @@ class Category : AppCompatActivity() {
         mList.add(ItemsViewModel(R.drawable.home_button, "Home Button "))
         mList.add(ItemsViewModel(R.drawable.water_damage, "Water Damage "))
         mList.add(ItemsViewModel(R.drawable.no_signal, "No Wifi/Signal "))
-        mList.add(ItemsViewModel(R.drawable.others, "Button "))
+        mList.add(ItemsViewModel(R.drawable.overheat, "Overheat "))
+        mList.add(ItemsViewModel(R.drawable.diagnostic, "Diagnostic "))
+        mList.add(ItemsViewModel(R.drawable.virus, "Virus "))
 
         recyclerviewAdaptery.notifyDataSetChanged()
 
