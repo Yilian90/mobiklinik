@@ -16,10 +16,6 @@ class Customer_info : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.customer_info)
 
-
-
-
-
         val text = findViewById<EditText>(R.id.edtHP)
         text.addTextChangedListener(PhoneNumberFormattingTextWatcher())
 
