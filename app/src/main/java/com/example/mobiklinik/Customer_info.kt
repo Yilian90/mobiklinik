@@ -3,7 +3,6 @@ package com.example.mobiklinik
 import android.content.Intent
 import android.os.Bundle
 import android.telephony.PhoneNumberFormattingTextWatcher
-import android.telephony.PhoneNumberUtils
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
@@ -12,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class Customer_info : AppCompatActivity() {
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
